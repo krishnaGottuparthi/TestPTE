@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Microsoft cloud sandbox",
+            "tenant": "c37d7c16-d7c7-4558-93d2-a635b596c203",
+            "environmentType": "Sandbox",
+            "environmentName": "AvantMoneydev",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+        }
+    ]
+  }
