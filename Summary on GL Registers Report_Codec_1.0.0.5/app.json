@@ -2,7 +2,7 @@
   "id": "93176a34-b2ac-457c-b78e-203a52999c82",
   "name": "Summary on GL Registers Report",
   "publisher": "Codec",
-  "version": "1.0.0.6",
+  "version": "1.6.0.0",
   "runtime": "10.0",
   "target": "Cloud",
   "resourceExposurePolicy": {
