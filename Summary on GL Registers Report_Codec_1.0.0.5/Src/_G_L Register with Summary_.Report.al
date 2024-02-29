@@ -102,9 +102,9 @@ report 80001 "G/L Register with Summary"
                 column(GLAcc_Name; GLAcc.Name)
                 {
                 }
-                column(GLAccountRec_ShowSummary; GLAccountRec."Show in Summary")
-                {
-                }
+                // column(GLAccountRec_ShowSummary; GLAccountRec."Show in Summary")
+                // {
+                // }
                 column(G_L_Entry_Description; Description)
                 {
                 }
@@ -162,7 +162,7 @@ report 80001 "G/L Register with Summary"
                 //SJ220210 (SL.)
                 dataitem("G/L Account"; "G/L Account")
                 {
-                    DataItemTableView = WHERE("Show in Summary" = const(true));
+                   // DataItemTableView = WHERE("Show in Summary" = const(true));
 
                     column(Name_2; Name)
                     {
