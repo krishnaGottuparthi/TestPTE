@@ -4,11 +4,11 @@ pageextension 80021 "G/L Account Card Sum" extends "G/L Account Card"
     {
         addlast(General)
         {
-            // field("Show in Summary "; Rec."Show in Summary")
-            // {
-            //     ApplicationArea = Basic, Suite;
-            //     ToolTip = 'Specifies the value of the Show in Summary field.';
-            // }
+            field("Show in Summary "; Rec."Show in Summary")
+            {
+                ApplicationArea = Basic, Suite;
+                ToolTip = 'Specifies the value of the Show in Summary field.';
+            }
         }
     }
     actions
