@@ -4970,6 +4970,9 @@ End Function
         <Field Name="GLAcc_Name">
           <DataField>GLAcc_Name</DataField>
         </Field>
+        <Field Name="GLAccountRec_ShowSummary">
+          <DataField>GLAccountRec_ShowSummary</DataField>
+        </Field>
         <Field Name="G_L_Entry_Description">
           <DataField>G_L_Entry_Description</DataField>
         </Field>
